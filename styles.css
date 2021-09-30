@@ -80,3 +80,31 @@ nav a {
   color: #000000;
 }
 
+#colors {
+  margin: 95px auto 50px auto;
+  width: 90%;
+  border: 1px solid #000000;
+  background-color: #929292;
+}
+
+.section {
+  margin: 50px auto 50px auto;
+  width: 90%;
+  border: 1px solid #000000;
+  background-color: #929292;
+}
+
+.title {
+  width: 100%;
+  border-bottom: 1px dotted #000000;
+  padding: 20px 0px;
+  margin: 0px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.anchor {
+  position: relative;
+  left: 0px;
+  top: -80px;
+}
