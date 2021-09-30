@@ -15,14 +15,15 @@ header {
   height: 80px;
   border-bottom: 1px solid #000000;
   width: 100%;
-  background-color: #929292;
-  color: #000000;
+  background-color: #000000;
+  color: #ff2052;
 }
 
 header h1 {
   margin: auto;
   padding: 21px 21px;
   display: inline-block;
+  font-size: 3em;
 }
 
 header ul { 
@@ -50,7 +51,7 @@ header li {
 
   header h1, header ul {
     margin: auto;
-    padding: 5px;
+    padding: 20px;
     display: inline-block;
   }
 
@@ -69,7 +70,7 @@ header li {
 
   header h1, header ul {
     margin: auto;
-    padding: 5px;
+    padding: 20px;
     display: inline-block;
   }
   
@@ -83,7 +84,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #000000;
+  color: #ff2052;
 }
 
 /* Colors Section Styles */
@@ -93,7 +94,8 @@ nav a {
   width: 90%;
   border: 1px solid #000000;
   border-radius: 25px;
-  background-color: #929292;
+  background-color: #000000;
+  color: #ff2052;
   box-shadow: 0px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -110,7 +112,7 @@ nav a {
   padding: 20px 0px;
   margin: 0px;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .anchor {
@@ -137,7 +139,7 @@ nav a {
   width: 11em;
   border: 1px solid #000000;
   border-radius: 25px;
-  box-shadow: 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 
@@ -184,4 +186,33 @@ nav a {
 #electric-violet {
   background-color: #8f00ff;
   color: #000000;
+}
+
+/* Fonts Section */
+
+#fonts {
+    margin: 50px auto 50px auto;
+    width: 90%;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    background-color: #000000;
+    color: #ff2052;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.font-label {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
