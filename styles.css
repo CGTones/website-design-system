@@ -1,8 +1,12 @@
+/* Universal Styles */
+
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   background-color: #333333;
 }
+
+/* Header/Headings w/ Media Queries */
 
 header {
   position: fixed;
@@ -71,6 +75,8 @@ header li {
   
 }
 
+/* Navigation Styles */
+
 nav {
   float: right;
 }
@@ -79,6 +85,8 @@ nav a {
   text-decoration: none;
   color: #000000;
 }
+
+/* Colors Section Styles */
 
 #colors {
   margin: 95px auto 50px auto;
@@ -107,4 +115,24 @@ nav a {
   position: relative;
   left: 0px;
   top: -80px;
+}
+
+.flexbox-center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.colorbox {
+  margin: 20px;
+  min-height: 100px;
+  width: 20%;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+#cool-blue {
+  background-color: #2d5dcc;
+  color: #000000;
 }
