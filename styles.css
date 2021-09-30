@@ -188,7 +188,7 @@ nav a {
   color: #000000;
 }
 
-/* Fonts Section */
+/* Fonts Section Styles */
 
 #fonts {
     margin: 50px auto 50px auto;
@@ -200,11 +200,68 @@ nav a {
     box-shadow: 0px 10px rgba(0, 0, 0, 0.3);
 }
 
+.flexbox-center2 {
+  display: block;
+  text-align: center;
+}
+
+
+/* Font Labels */
 .font-label {
   text-decoration: underline;
   text-align: center;
 }
 
+.font-label .source-code-pro {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.font-label .nunito-sans {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-label .poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-label .tomorrow {
+  font-family: 'Tomorrow', sans-serif;
+}
+
+.font-label .times {
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.font-label .franklin {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Font Families */
+.source-code-pro {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.nunito-sans {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.tomorrow {
+  font-family: 'Tomorrow', sans-serif;
+}
+
+.times {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.franklin {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Font Styles */
 .regular {
   font-style: normal;
 }
