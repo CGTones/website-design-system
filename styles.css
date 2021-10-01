@@ -200,7 +200,7 @@ nav a {
     box-shadow: 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-.flexbox-center2 {
+.flexbox-fonts {
   display: block;
   text-align: center;
 }
@@ -210,55 +210,68 @@ nav a {
 .font-label {
   text-decoration: underline;
   text-align: center;
+  color: #ff2052
 }
 
-.font-label .source-code-pro {
+#source-code-pro {
   font-family: 'Source Code Pro', monospace;
+  color: #ff2052;
 }
 
-.font-label .nunito-sans {
+#nunito-sans {
   font-family: 'Nunito Sans', sans-serif;
+  color: #ff2052;
 }
 
-.font-label .poppins {
+#poppins {
   font-family: 'Poppins', sans-serif;
+  color: #ff2052;
 }
 
-.font-label .tomorrow {
+#tomorrow {
   font-family: 'Tomorrow', sans-serif;
+  color: #ff2052;
 }
 
-.font-label .times {
+#times {
   font-family: 'Times New Roman', sans-serif;
+  color: #ff2052;
 }
 
-.font-label .franklin {
+#franklin {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ff2052;
 }
 
 /* Font Families */
 .source-code-pro {
   font-family: 'Source Code Pro', monospace;
+  color: #fff;
 }
 
 .nunito-sans {
   font-family: 'Nunito Sans', sans-serif;
+  color: #fff;
 }
 
 .poppins {
   font-family: 'Poppins', sans-serif;
+  color: #fff;
 }
 
 .tomorrow {
   font-family: 'Tomorrow', sans-serif;
+  color: #fff;
 }
 
 .times {
   font-family: 'Times New Roman', Times, serif;
+  color: #fff;
 }
 
 .franklin {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
 }
 
 /* Font Styles */
@@ -273,3 +286,29 @@ nav a {
 .italic {
   font-style: italic;
 }
+
+/* Element Styling */
+
+#elements {
+  margin: 50px auto 50px auto;
+  width: 90%;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-color: #000000;
+  color: #ff2052;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.flexbox-elements {
+  display: block;
+  text-align: center;
+}
+
+.flexbox-elements h1 {
+  text-decoration: underline;
+}
+
+.flexbox-elements p {
+  color: #fff;
+}
+
